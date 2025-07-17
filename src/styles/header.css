@@ -1,0 +1,204 @@
+/* navbar style */
+nav {
+  position: relative;
+  width: 98%;
+  height: calc(134 / 14.4 * 1vw);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.lang-wrapper {
+  position: absolute;
+  top: calc(0 / 14.4 * 1vw);
+  right: 0;
+  display: inline-block;
+  width: calc(11 / 14.4 * 1vw);
+  align-items: center;
+  gap: calc(8 / 14.4 * 1vw);
+  border: 1px solid #ccc;
+  padding: calc(5 / 14.4 * 1vw) calc(10 / 14.4 * 1vw);
+  border-radius: calc(5 / 14.4 * 1vw);
+  background: white;
+  width: fit-content;
+}
+
+#flag-icon {
+  width: calc(25 / 14.4 * 1vw);
+  height: calc(13 / 14.4 * 1vw);
+  border-radius: 2px;
+}
+
+select {
+  border: none;
+  font-size: calc(14 / 14.4 * 1vw);
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.burgerHeader {
+  width: calc(77 / 14.4 * 1vw);
+  height: calc(77 / 14.4 * 1vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  border: none;
+  position: relative;
+}
+
+.burgerHeader > i {
+  font-size: calc(40 / 14.4 * 1vw);
+  color: white;
+  transition: opacity 0.3s linear;
+  position: absolute;
+}
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: calc(32 / 14.4 * 1vw);
+}
+
+.navbar-logo img {
+  width: calc(200 / 14.4 * 1vw);
+  height: calc(63 / 14.4 * 1vw);
+}
+
+.search-box {
+  position: relative;
+  width: calc(624 / 14.4 * 1vw);
+  padding: calc(2 / 14.4 * 1vw);
+  background: linear-gradient(211.73deg, #3455d8 -46.71%, #ff4343 121.33%);
+}
+
+.search-box input {
+  width: 100%;
+  padding: calc(15 / 14.4 * 1vw) calc(30 / 14.4 * 1vw);
+  border: none;
+  outline: none;
+  background: white;
+  display: block;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.search-box i {
+  position: absolute;
+  right: calc(15 / 14.4 * 1vw);
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+  font-size: calc(18 / 14.4 * 1vw);
+  pointer-events: none;
+}
+
+.navbar-right {
+  margin-left: calc(31 / 14.4 * 1vw);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.ahror {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: calc(5 / 14.4 * 1vw);
+}
+
+.ahror p {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.user,
+.love,
+.shopping {
+  margin-left: calc(50 / 14.4 * 1vw);
+}
+
+.user,
+.love,
+.shopping i {
+  font-size: calc(26 / 14.4 * 1vw);
+}
+
+.catalog {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: relative;
+  overflow: hidden;
+}
+
+.catalogCard {
+  display: flex;
+  flex-direction: column;
+  width: calc(296 / 13.6 * 1vw);
+  transform: translateY(0);
+  transition: transform 0.3s linear;
+  box-shadow: 0 calc(4 / 14.4 * 1vw) calc(40 / 14.4 * 1vw) 0 #0000001f;
+  background-color: white;
+}
+
+.catalogCard > button {
+  border: none;
+  display: flex;
+  padding: calc(10 / 13.6 * 1vw) calc(30 / 13.6 * 1vw);
+  gap: calc(11.5 / 13.6 * 1vw);
+  align-items: center;
+  background-color: white;
+  border-radius: calc(5 / 13.6 * 1vw);
+}
+
+.catalogCard > button:first-child {
+  background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
+  padding-top: calc(8 / 13.6 * 1vw);
+  padding-bottom: calc(8 / 13.6 * 1vw);
+}
+
+.catalogCard > button > p {
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-size: calc(14 / 13.6 * 1vw);
+  font-weight: 300;
+  line-height: calc(16 / 13.6 * 1vw);
+}
+
+.catalogCard > button:hover {
+  background-color: #625d5d1f;
+  transition: 0.5s;
+}
+
+.catalogCard > button > img {
+  width: calc(20 / 13.6 * 1vw);
+  height: calc(20 / 13.6 * 1vw);
+}
+
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.corusel {
+  width: calc(1000 / 14.4 * 1vw);
+  height: calc(380 / 14.4 * 1vw);
+  display: flex;
+}
+
+.corusel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
