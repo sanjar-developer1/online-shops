@@ -1,0 +1,17 @@
+{
+  "search": "Qidiruv...",
+  "login": "Kirish",
+  "favorite": "Sevimlilar",
+  "cart": "Savat",
+  "category": {
+    "popular": "Ommabop toifalar",
+    "phones": "Telefonlar",
+    "computers": "Kompyuterlar",
+    "accessories": "Aksessuarlar",
+    "women": "Ayollar kiyimlari",
+    "men": "Erkaklar kiyimlari",
+    "children": "Bolalar uchun mahsulotlar",
+    "health": "Go'zallik va salomatlik",
+    "sport": "Sport va ko'ngilochar"
+  }
+}

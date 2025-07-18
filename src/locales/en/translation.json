@@ -1,0 +1,17 @@
+{
+  "search": "Search...",
+  "login": "Log In",
+  "favorite": "Favorites",
+  "cart": "Cart",
+  "category": {
+    "popular": "Popular Categories",
+    "phones": "Phones",
+    "computers": "Computers",
+    "accessories": "Accessories",
+    "women": "Women's Clothing",
+    "men": "Men's Clothing",
+    "children": "Children's Items",
+    "health": "Beauty & Health",
+    "sport": "Sport & Entertainment"
+  }
+}
