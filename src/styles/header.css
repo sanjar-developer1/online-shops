@@ -143,7 +143,7 @@ select {
 .catalogCard {
   display: flex;
   flex-direction: column;
-  width: calc(296 / 13.6 * 1vw);
+  width: calc(296 / 14.4 * 1vw);
   transform: translateY(0);
   transition: transform 0.3s linear;
   box-shadow: 0 calc(4 / 14.4 * 1vw) calc(40 / 14.4 * 1vw) 0 #0000001f;
@@ -153,35 +153,37 @@ select {
 .catalogCard > button {
   border: none;
   display: flex;
-  padding: calc(10 / 13.6 * 1vw) calc(30 / 13.6 * 1vw);
-  gap: calc(11.5 / 13.6 * 1vw);
+  padding: calc(10 / 14.4 * 1vw) calc(30 / 14.4 * 1vw);
+  gap: calc(11.5 / 14.4 * 1vw);
   align-items: center;
   background-color: white;
-  border-radius: calc(5 / 13.6 * 1vw);
+  border-radius: calc(5 / 14.4 * 1vw);
 }
 
 .catalogCard > button:first-child {
   background: linear-gradient(96.78deg, #f64d4d -57.09%, #4d5ef6 101.17%);
-  padding-top: calc(8 / 13.6 * 1vw);
-  padding-bottom: calc(8 / 13.6 * 1vw);
+  padding-top: calc(8 / 14.4 * 1vw);
+  padding-bottom: calc(8 / 14.4 * 1vw);
 }
 
 .catalogCard > button > p {
   color: #000000;
   font-family: Roboto, sans-serif;
-  font-size: calc(14 / 13.6 * 1vw);
+  font-size: calc(14 / 14.4 * 1vw);
   font-weight: 300;
-  line-height: calc(16 / 13.6 * 1vw);
+  line-height: calc(16 / 14.4 * 1vw);
 }
-
-.catalogCard > button:hover {
-  background-color: #625d5d1f;
-  transition: 0.5s;
+.catalogCard > button > p:hover {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 100%;
+  letter-spacing: 0%;
 }
 
 .catalogCard > button > img {
-  width: calc(20 / 13.6 * 1vw);
-  height: calc(20 / 13.6 * 1vw);
+  width: calc(20 / 14.4 * 1vw);
+  height: calc(20 / 14.4 * 1vw);
 }
 
 header {

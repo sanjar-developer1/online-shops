@@ -13,5 +13,91 @@
     "children": "Товары для детей",
     "health": "Красота и здоровье",
     "sport": "Спорт и развлечения"
-  }
+  },
+  "products": [
+    {
+      "id": 1,
+      "description": "Футболка с дизайнерским принтом Super Shape 02 фиолетовая",
+      "price": "1999 ₽",
+      "oldPrice": "2499 ₽",
+      "image": "/product1.png"
+    },
+    {
+      "id": 2,
+      "description": "Бейсболка с дизайнерским принтом Super Shape 01 белая",
+      "price": "1999 ₽",
+      "oldPrice": "3179 ₽",
+      "image": "/product2.png"
+    },
+    {
+      "id": 3,
+      "description": "Новая модель с мощной камерой",
+      "price": "599 ₽",
+      "oldPrice": "2499 ₽",
+      "image": "/product3.png"
+    },
+    {
+      "id": 4,
+      "description": "Футболка с дизайнерским принтом Super Shape 05",
+      "price": "1999 ₽",
+      "oldPrice": "2499 ₽",
+      "image": "/product4.png"
+    },
+    {
+      "id": 5,
+      "description": "Футболка с дизайнерским принтом Super Shape 05",
+      "price": "1999 ₽",
+      "oldPrice": "2499 ₽",
+      "image": "/product1.png"
+    },
+    {
+      "id": 6,
+      "description": "Футболка80 с дизайнерским принтом Super Shape 0201 абстракция на фиолетовом фоне",
+      "price": "1999 ₽",
+      "oldPrice": "2499 ₽",
+      "image": "/product2.png"
+    },
+    {
+      "id": 7,
+      "description": "Бейсболка с дизайнерским принтом Super Shape 02 абстракция",
+      "price": "1375 ₽",
+      "oldPrice": "2499 ₽",
+      "image": "/product7.png"
+    },
+    {
+      "id": 8,
+      "description": "Чехол для iphone 12 с дизайнерским принтом Super Shape 03",
+      "price": "599 ₽",
+      "oldPrice": "990 ₽",
+      "image": "/product8.png"
+    },
+    {
+      "id": 9,
+      "description": "Чехол для iphone 12 с дизайнерским принтом Super Shape 02",
+      "price": "599 ₽",
+      "oldPrice": "990 ₽",
+      "image": "/product9.png"
+    },
+    {
+      "id": 10,
+      "description": "Футболка с дизайнерским принтом Super Shape 02 фиолетовая",
+      "price": "3179 ₽",
+      "oldPrice": "1999 ₽",
+      "image": "/product10.png"
+    },
+    {
+      "id": 11,
+      "description": "Чехол для iphone 12 с дизайнерским принтом Super Shape 06",
+      "price": "599 ₽",
+      "oldPrice": "990 ₽",
+      "image": "/product11.png"
+    },
+    {
+      "id": 12,
+      "description": "Чехол для iphone 12 с дизайнерским принтом Super Shape 06",
+      "price": "2399 ₽",
+      "oldPrice": "3790 ₽",
+      "image": "/product12.png"
+    }
+  ]
 }

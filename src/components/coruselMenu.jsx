@@ -9,6 +9,7 @@ import slide3 from "../img/iphone1.jpg";
 import slide4 from "../img/keyboard.jpg";
 import slide5 from "../img/keyboard1.jpg";
 import slide6 from "../img/mackbook.jpg";
+import banner1 from "../img/baner1.png";
 
 import {
   Navigation,
@@ -17,6 +18,7 @@ import {
   Keyboard,
   Autoplay,
 } from "swiper/modules";
+
 
 export default function App() {
   return (
@@ -31,6 +33,9 @@ export default function App() {
         className="mySwiper"
         autoplay={{ delay: 3000 }}
       >
+        <SwiperSlide>
+          <img src={banner1} alt="bu yerda rasm bor" />
+        </SwiperSlide>
         <SwiperSlide>
           <img src={slide3} alt="slide3" />
         </SwiperSlide>

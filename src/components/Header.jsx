@@ -19,6 +19,8 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const { t, i18n } = useTranslation();
 
+  const prducts = t("products", { returnObjects: true });
+
   // Bayroq + tilni almashtirish
   const updateFlag = (e) => {
     const selectedOption = e.target.options[e.target.selectedIndex];
@@ -127,7 +129,6 @@ function Header() {
             </button>
           </div>
         </div>
-
         <div className="corusel">
           <CoruselMenu />
         </div>

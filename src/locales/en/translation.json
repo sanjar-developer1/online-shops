@@ -13,5 +13,88 @@
     "children": "Children's Items",
     "health": "Beauty & Health",
     "sport": "Sport & Entertainment"
-  }
+  },
+  "products": [
+    {
+      "id": 1,
+      "description": "T-shirt with designer print Super Shape 02 in purple",
+      "price": "25 $",
+      "oldPrice": "31 $",
+      "image": "/product1.png"
+    },
+    {
+      "id": 2,
+      "description": "Baseball cap with designer print Super Shape 01 in white",
+      "price": "25 $",
+      "oldPrice": "40 $",
+      "image": "/product2.png"
+    },
+    {
+      "id": 3,
+      "description": "New model with powerful camera",
+      "price": "8 $",
+      "image": "/product3.png"
+    },
+    {
+      "id": 4,
+      "description": "T-shirt with designer print Super Shape 05",
+      "price": "25 $",
+      "image": "/product4.png"
+    },
+    {
+      "id": 5,
+      "description": "T-shirt with designer print Super Shape 05",
+      "price": "25 $",
+      "image": "/product1.png"
+    },
+    {
+      "id": 6,
+      "description": "T-shirt80 with abstract designer print Super Shape 0201 on purple background",
+      "price": "25 $",
+      "oldPrice": "31 $",
+      "image": "/product2.png"
+    },
+    {
+      "id": 7,
+      "description": "Baseball cap with abstract designer print Super Shape 02",
+      "price": "18 $",
+      "oldPrice": "31 $",
+      "image": "/product7.png"
+    },
+    {
+      "id": 8,
+      "description": "iPhone 12 case with designer print Super Shape 03",
+      "price": "8 $",
+      "oldPrice": "13 $",
+      "image": "/product8.png"
+    },
+    {
+      "id": 9,
+      "description": "iPhone 12 case with designer print Super Shape 02",
+      "price": "8 $",
+      "oldPrice": "13 $",
+      "image": "/product9.png"
+    },
+    {
+      "id": 10,
+      "description": "T-shirt with designer print Super Shape 02 in purple",
+      "price": "40 $",
+      "oldPrice": "25 $",
+      "image": "/product10.png"
+    },
+    {
+      "id": 11,
+      "description": "iPhone 12 case with designer print Super Shape 06",
+      "price": "8 $",
+      "oldPrice": "13 $",
+      "image": "/product11.png"
+    },
+    {
+      "id": 12,
+      "description": "iPhone 12 case with designer print Super Shape 06",
+      "price": "30 $",
+      "oldPrice": "48 $",
+      "image": "/product12.png"
+    }
+  ]
 }

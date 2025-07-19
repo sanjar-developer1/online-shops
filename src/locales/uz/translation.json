@@ -13,5 +13,88 @@
     "children": "Bolalar uchun mahsulotlar",
     "health": "Go'zallik va salomatlik",
     "sport": "Sport va ko'ngilochar"
-  }
+  },
+  "products": [
+    {
+      "id": 1,
+      "description": "Super Shape 02 binafsha dizaynli futbolka",
+      "price": "300 000 so'm",
+      "oldPrice": "375 000 so'm",
+      "image": "/product1.png"
+    },
+    {
+      "id": 2,
+      "description": "Super Shape 01 oq dizaynli beysbolka",
+      "price": "300 000 so'm",
+      "oldPrice": "480 000 so'm",
+      "image": "/product2.png"
+    },
+    {
+      "id": 3,
+      "description": "Kuchli kamerali yangi model",
+      "price": "90 000 so'm",
+      "image": "/product3.png"
+    },
+    {
+      "id": 4,
+      "description": "Super Shape 05 dizaynli futbolka",
+      "price": "300 000 so'm",
+      "image": "/product4.png"
+    },
+    {
+      "id": 5,
+      "description": "Super Shape 05 dizaynli futbolka",
+      "price": "300 000 so'm",
+      "image": "/product1.png"
+    },
+    {
+      "id": 6,
+      "description": "Super Shape 0201 binafsha fonli abstraksiyali futbolka80",
+      "price": "300 000 so'm",
+      "oldPrice": "375 000 so'm",
+      "image": "/product2.png"
+    },
+    {
+      "id": 7,
+      "description": "Super Shape 02 abstraksiyali dizaynli beysbolka",
+      "price": "210 000 so'm",
+      "oldPrice": "375 000 so'm",
+      "image": "/product7.png"
+    },
+    {
+      "id": 8,
+      "description": "iPhone 12 uchun Super Shape 03 dizaynli qopqoq",
+      "price": "90 000 so'm",
+      "oldPrice": "150 000 so'm",
+      "image": "/product8.png"
+    },
+    {
+      "id": 9,
+      "description": "iPhone 12 uchun Super Shape 02 dizaynli qopqoq",
+      "price": "90 000 so'm",
+      "oldPrice": "150 000 so'm",
+      "image": "/product9.png"
+    },
+    {
+      "id": 10,
+      "description": "Super Shape 02 binafsha dizaynli futbolka",
+      "price": "480 000 so'm",
+      "oldPrice": "300 000 so'm",
+      "image": "/product10.png"
+    },
+    {
+      "id": 11,
+      "description": "iPhone 12 uchun Super Shape 06 dizaynli qopqoq",
+      "price": "90 000 so'm",
+      "oldPrice": "150 000 so'm",
+      "image": "/product11.png"
+    },
+    {
+      "id": 12,
+      "description": "iPhone 12 uchun Super Shape 06 dizaynli qopqoq",
+      "price": "360 000 so'm",
+      "oldPrice": "570 000 so'm",
+      "image": "/product12.png"
+    }
+  ]
 }
